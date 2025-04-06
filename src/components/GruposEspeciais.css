@@ -1,0 +1,56 @@
+.grupos-section {
+    padding: 60px 20px;
+    background-color: #F6F6F6;
+    text-align: center;
+}
+
+.section-titled {
+    color: #FA931C;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.grupos-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.text-block {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    transition: transform 0.3s ease;
+}
+
+.text-block:hover {
+    transform: translateY(-10px);
+}
+
+.text-block h3 {
+    color: #5720C9;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.text-block p {
+    color: #333;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.text-block .title {
+    margin-bottom: -30px;
+}
+
+.text-block img {
+    width: 100%; /* Ensures the image fits the block width */
+    max-width: 350px; /* Prevents it from becoming too large */
+    height: auto; /* Keeps aspect ratio */
+    border-radius: 20px; /* Rounds the corners */
+    display: block;
+    margin: 0 auto 15px; /* Centers the image and adds spacing below */
+}

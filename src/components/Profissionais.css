@@ -1,0 +1,67 @@
+.profissionais-section {
+    padding: 60px 0;
+    background-color: #e58e16;
+    text-align: center;
+    display: block !important;
+    overflow: hidden;
+  }
+  
+  
+  .section-title {
+    color: #f6f6f6;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  /* Default style for larger screens */
+  .image-block {
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  
+  .image-block:hover {
+    transform: translateY(-10px);
+  }
+  
+  .image-block img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  /* Adjustments for small screens */
+  @media (max-width:700) {
+    .image-block {
+      width: calc(100vw - 40px);  /* 100vw minus total horizontal margin */
+      aspect-ratio: 7 / 10;        /* Maintain the 350:500 ratio */
+    }
+  }
+  
+  .swiper {
+    overflow: visible !important;
+}
+
+.swiper-wrapper {
+    overflow: visible !important;
+}
+
+.swiper-slide {
+    overflow: visible !important;
+}
+
+.services-subtitle {
+  color: #986037;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}

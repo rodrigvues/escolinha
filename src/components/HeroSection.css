@@ -1,0 +1,31 @@
+.cta-button {
+    padding: 10px 20px;
+    background-color: #FE631E;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+    background-color: #FE631E; /* Cor mais escura no hover */
+}
+
+.whatsapp-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25D366;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+    transition: transform 0.2s;
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.1); /* Aumenta no hover */
+}

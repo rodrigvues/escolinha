@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.slick-slide {
+  padding: 10px;
+}
+
+.slick-prev, .slick-next {
+  color: #F6F6F6;
+  z-index: 1;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 24px;
+  color: #F6F6F6;
+}
+
+/* No seu arquivo CSS global (por exemplo, App.css) */
+
+.slick-slide {
+  padding: 10px;
+}
+
+.slick-slide > div {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
+}
+
+.slick-prev, .slick-next {
+  color: #F6F6F6;
+  z-index: 1;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 24px;
+  color: #F6F6F6;
+}

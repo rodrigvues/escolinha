@@ -1,0 +1,75 @@
+/* Serviços Section */
+#montessori {
+    padding: 60px 20px;
+    background-color: #5720C9;
+    text-align: center;
+}
+
+#montessori h2 {
+    color: #f6f6f6;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.services-subtitle {
+    color: #f6f6f6;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.service-card {
+    background-color: #f6f6f6;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service-card h3 {
+    color: #e58e16;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    color: #5720C9;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.services-grid {
+    display: grid;
+    gap: 30px;
+    padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (min-width: 1366px) {
+    .services-grid {
+        grid-template-columns: repeat(3, 1fr); /* Sempre 3 colunas */
+    }
+}
